@@ -1,4 +1,4 @@
 # SistemaCobroResidencial
-By DATTI.
+By DATTI
 
 Gerson Salazar, Milton Mejía, Edwin Almira, Steve Mata.
