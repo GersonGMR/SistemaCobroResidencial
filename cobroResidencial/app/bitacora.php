@@ -6,6 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class bitacora extends Model
 {
+    protected $table = 'bitacoras';
+
     public function procesos(){
         return $this->hasMany(proceso::class, 'id_proceso');
     }

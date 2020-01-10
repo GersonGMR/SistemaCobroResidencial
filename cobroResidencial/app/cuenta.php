@@ -6,6 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class cuenta extends Model
 {
+    protected $table = 'cuentas';
+    
     public function usuarios(){
         return $this->hasMany(usuario::class, 'id_usuario');
     }

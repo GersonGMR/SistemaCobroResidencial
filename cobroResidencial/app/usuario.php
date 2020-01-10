@@ -6,6 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class usuario extends Model
 {
+    protected $table = 'usuarios';
+
     public function cargo(){
         return $this->belongsTo(cargo::class, 'id cargo');
     }
